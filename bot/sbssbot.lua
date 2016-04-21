@@ -219,7 +219,6 @@ function create_config( )
     "chat",
     "download_media",
     "echo",
-    "feedback",
     "filterword",
     "get",
     "img2sticker",
@@ -248,36 +247,27 @@ function create_config( )
     "send",
     "set",
     "share",
-    "spammer",
     "stats",
     "telesticker",
     "text",
     "time",
     "webshot",
-    "welcome"
+    "welcome",
+    "weather",
+    "text-sticker",
+    "infoooo"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {147237496},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Sbss Bot V3
-    An Advanced Anti Spam Bot Forked On TeleSeed
+    about_text = [[SoftTG Bot v2
+    An Advanced Anti Spam Bot Forked On TG
     
     Develpoed By:
-    @Mr_Ah_S
-    
-    Special Thanks To:
-    Mehr Pouya
-    Arman
-    IM/-\N
-    Creed Is Dead
-    
-    Powered By @Sbss_Team
-    
-    #Open Source
-    https://github.com/SbssTeam/Sbss
+    @MOhammad_NBG
 ]],
     help_text_realm = [[
-See Patterns In Github
+See Patterns
 ]],
     help_fa_text = [[
 دستورات فارسی ربات:
@@ -429,7 +419,7 @@ ____________
 Send /share to get robot number
 ____________
 You can use [ ! , / or # ]or don’t use them
-More Details on @Sbss_Team
+More Details on @Soft_TG
 ]]
   }
   serialize_to_file(config, './data/config.lua')
